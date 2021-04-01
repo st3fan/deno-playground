@@ -3,7 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/
 
 addEventListener("fetch", (event) => {
-  const response = new Response("Hello World!", {
+  const response = new Response("Hello, Ralph!", {
     headers: { "content-type": "text/plain" },
   });
   event.respondWith(response);
